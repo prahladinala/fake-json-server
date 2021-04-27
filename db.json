@@ -1,0 +1,198 @@
+{
+    "theatres": [
+        {
+            "name": "Theatre1",
+            "id": 1
+        },
+        {
+            "name": "Theatre2",
+            "id": 2
+        },
+        {
+            "name": "Theatre3",
+            "id": 3
+        },
+        {
+            "name": "Theatre4",
+            "id": 4
+        },
+        {
+            "name": "Theatre4",
+            "id": 5
+        }
+    ],
+    "movies": [
+        {
+            "id": 1,
+            "name": "Pirates",
+            "genre": "Adventure"
+        },
+        {
+            "id": 2,
+            "name": "Wall-e",
+            "genre": "Animation"
+        },
+        {
+            "id": 3,
+            "name": "Avengers",
+            "genre": "Fiction"
+        },
+        {
+            "id": 4,
+            "name": "Indiana Jones",
+            "genre": "Adventure"
+        },
+        {
+            "id": 5,
+            "name": "Upload",
+            "genre": "Drama"
+        },
+        {
+            "id": 6,
+            "name": "Soul",
+            "genre": "Animation"
+        },
+        {
+            "id": 7,
+            "name": "Titanic",
+            "genre": "Drama"
+        },
+        {
+            "id": 8,
+            "name": "NoteBook",
+            "genre": "Romance"
+        },
+        {
+            "id": 9,
+            "name": "Up",
+            "genre": "Comedy"
+        },
+        {
+            "id": 10,
+            "name": "StarWars",
+            "genre": "Fantasy"
+        },
+        {
+            "id": 11,
+            "name": "Interstellar",
+            "genre": "Thriller"
+        }
+    ],
+    "userHistory": [
+        {
+            "id": 7,
+            "userId": 2,
+            "screenId": 2,
+            "purchasedOn": "3921-05-17",
+            "count": 1
+        },
+        {
+            "id": 8,
+            "userId": 2,
+            "screenId": 5,
+            "purchasedOn": "3921-05-18",
+            "count": 3
+        }
+    ],
+    "login": {
+        "email": "sai@gmail.com",
+        "password": "SaiInala"
+    },
+    "moviesinTheatre": [
+        {
+            "theatreId": 1,
+            "screenId": 1,
+            "movieId": 1
+        },
+        {
+            "theatreId": 1,
+            "screenId": 2,
+            "movieId": 2
+        },
+        {
+            "theatreId": 1,
+            "screenId": 3,
+            "movieId": 3
+        },
+        {
+            "theatreId": 1,
+            "screenId": 4,
+            "movieId": 4
+        },
+        {
+            "theatreId": 2,
+            "screenId": 5,
+            "movieId": 5
+        }
+    ],
+    "showDetails": [
+        {
+            "screenId": 5,
+            "capacity": 50,
+            "occupiedCapacity": 13,
+            "showDate": "2021-03-30",
+            "showTime": "10:00:00",
+            "theatreId": 1
+        },
+        {
+            "screenId": 10,
+            "capacity": 40,
+            "occupiedCapacity": 13,
+            "showDate": "2021-03-30",
+            "showTime": "11:00:00",
+            "theatreId": 2
+        }
+    ],
+    "screenOneTheater": [
+        {
+            "screenId": 5,
+            "capacity": 50,
+            "occupiedCapacity": 13,
+            "showDate": "2021-03-30",
+            "showTime": "10:00:00",
+            "theatreId": 1
+        }
+    ],
+    "theaterScreens": [
+        {
+            "screenId": 1,
+            "capacity": 40,
+            "occupiedCapacity": 15,
+            "showDate": "2021-03-29",
+            "showTime": "10:00:00",
+            "theatreId": 1
+        },
+        {
+            "screenId": 2,
+            "capacity": 40,
+            "occupiedCapacity": 6,
+            "showDate": "2021-03-29",
+            "showTime": "15:00:00",
+            "theatreId": 1
+        },
+        {
+            "screenId": 3,
+            "capacity": 50,
+            "occupiedCapacity": 15,
+            "showDate": "2021-03-29",
+            "showTime": "11:00:00",
+            "theatreId": 1
+        },
+        {
+            "screenId": 4,
+            "capacity": 50,
+            "occupiedCapacity": 20,
+            "showDate": "2021-03-29",
+            "showTime": "16:00:00",
+            "theatreId": 1
+        },
+        {
+            "screenId": 5,
+            "capacity": 50,
+            "occupiedCapacity": 13,
+            "showDate": "2021-03-30",
+            "showTime": "10:00:00",
+            "theatreId": 1
+        }
+    ]
+}
