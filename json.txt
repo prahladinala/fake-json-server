@@ -1,0 +1,8 @@
+{
+  "id": 1,
+  "name": "James Bond",
+  "theatre": "TejMax",
+  "genre": "Thriller",
+  "price": 20,
+  "seats": 10
+}
